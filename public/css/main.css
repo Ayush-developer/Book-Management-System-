@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+}
+.nav{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color:black;
+    margin: 0px;
+    height: 50px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    color: aquamarine;
+    font-weight: 100;
+    font-size: 20px;
+
+}
+
+section{
+    margin: 50px;
+    display: flex;
+    justify-content:start;
+    align-items:center;
+}
+
+.book{
+    margin: 15px;
+
+    padding:15px;
+    width: 250px;
+
+    background-color:black;
+}
+
+.a{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: -10px;
+    
+}
+img{
+    width:100%;
+}
+
+h2{
+    color:aquamarine;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    font-weight: 100;
+   
+}
+
+h2:hover{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    /* text-decoration-thickness: 2px; */
+    animation-duration: 2s;
+    transition-duration: 2s;
+}
+
+h1{
+    color:aquamarine;
+    text-align: center;
+    
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+}
+p{
+    color:aquamarine;
+    text-align: center;
+
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    
+}
+
+p:hover{
+    font-size: 17px;
+    transition-duration:1s;
+}
+
+main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 50px;
+
+}
+
+form{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+}
+
+input{
+    width: 250px;
+    height:25px;
+}
+
+button{
+     font-family: 'Roboto Mono', monospace;
+     font-weight: 100;
+     margin-top:20px;
+     padding:10px;
+     font-size: 15px;
+     background-color: black;
+     color:aquamarine;
+     border:none;
+}

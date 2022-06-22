@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+        <a href="/home">Home</a>
+        <a href="/add-books">Add Book</a>
+    </div>
+
+    <main>
+        
+        <form action='/add-books' method='POST'>
+           <div class="newk">
+            <h3>Enter Book Name</h3>
+            <input type='text' name='book'>
+            <h3>Author Name</h3>
+            <input type='text' name='author'>
+            <h3 for="">Image</h3>
+            <input type="text" name='img'>
+            <h3 for="">Progress</h3>
+            <input type='number' name='prog'>
+            <h3 for=""> Description</h3>
+            <input type="text"  name='textss'>
+            <br>
+            <button type='submit'>Send</button>
+           </div>
+        </form>    
+
+       
+        
+    </main>
+</body>
+</html>
